@@ -16,11 +16,11 @@ const Login = () => {
             login({ role: "admin", email });
             navigate("/admin");
         }
-        else if (email === "faculty@college.edu" && password === "faculty6969") {
+        else if (email === "faculty@college.edu" && password === "faculty123") {
             login({ role: "faculty", email });
             navigate("/faculty");
         }
-        else if (email === "student@college.edu" && password === "student9876") {
+        else if (email === "student@college.edu" && password === "student123") {
             login({ role: "student", email });
             navigate("/student");
         }
